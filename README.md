@@ -19,10 +19,10 @@ Simple Java console program: Rock, Paper Scissors (RPS) Game || 用Java写的简
 - The player is asked for a throw and enters "Rock", "Paper", or "Scissors". Upper case and lower case letter do not matter.
 - The computer tells the player what their number corresponded to: rock, paper, or scissors.
 - The computer picks a random number for rock, paper, or scissors.
-- If the player enters a wrong word, like "Potato", the program will say "You did not say Rock, Paper, or Scissors! No fair!". Then, it should ask them to pick again.
+- If the player enters a wrong word, like "Potato", the program will say "You did not say Rock, Paper, or Scissors! No fair!". Then, it will ask them to pick again.
 - The computer tells the player what the computer picked: rock, paper, or scissors.
 - The computer tells the player who won: the player or the computer or a Tie.
-- Print the game summary to console.
+- Print the game summary to the console.
 
 ## 4 To improve
 - `decideWinner()`
