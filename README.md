@@ -1,5 +1,7 @@
 # rock-paper-scissors
 
+![rock-paper-scissors](https://socialify.git.ci/lunarwhite/rock-paper-scissors/image?description=1&descriptionEditable=Simple%20Java%20console%20program%3A%20Rock%2C%20Paper%20Scissors%20(RPS)%20Game&font=Raleway&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+
 Simple Java console program: Rock, Paper Scissors (RPS) Game || 用Java写的简易控制台剪刀石头布（猜丁壳）游戏
 
 ## 1 Overview
