@@ -1,21 +1,22 @@
 # rock-paper-scissors
 
-![rock-paper-scissors](https://socialify.git.ci/lunarwhite/rock-paper-scissors/image?description=1&descriptionEditable=Simple%20Java%20console%20program%3A%20Rock%2C%20Paper%20Scissors%20(RPS)%20Game&font=Raleway&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+Simple Java console program: Rock, Paper Scissors (RPS) Game.
 
-Simple Java console program: Rock, Paper Scissors (RPS) Game || 用Java写的简易控制台剪刀石头布（猜丁壳）游戏
+## Overview
 
-## 1 Overview
 - A computerized version of Rock, Paper Scissors (RPS).
 - RPS is a popular game played between 2 individuals for decision making ("if you win, then I get the last cookie") or just for fun.
 - This time is played between the computer and a single player.
 
-## 2 Rules
+## Rules
+
 - Rock beats Scissors (i.e., Rock wins)
 - Scissors beats Paper
 - Paper beats Rock
 - If the players pick the same thing (e.g., Rock and Rock), then it is a Tie.
 
-## 3 Guide
+## Guide
+
 - Ask for the player's name. Say "Hello, <name>".
 - Ask the player "How many times do you want to play?". Repeat the game that many times.
 - The player is asked for a throw and enters "Rock", "Paper", or "Scissors". Upper case and lower case letter do not matter.
@@ -26,18 +27,19 @@ Simple Java console program: Rock, Paper Scissors (RPS) Game || 用Java写的简
 - The computer tells the player who won: the player or the computer or a Tie.
 - Print the game summary to the console.
 
-## 4 To improve
+## To improve
+
 - `decideWinner()`
-```java
-if (computerThrow == (playerThrow + 1) % 3) {
+    ```java
+    if (computerThrow == (playerThrow + 1) % 3) {
       System.out.println("Computer wins!");
-}
-```
+    }
+    ```
 - Only need one `Scanner`.
 - `getPlayerThrow()`, the while loop is complicated. Use `Enum`.
 - Clean the scanner input
-```java
-Scanner keyboard = new Scanner(System.in);
-
-Keyboard.nextLine(); // clear line
-```
+    ```java
+    Scanner keyboard = new Scanner(System.in);
+    
+    Keyboard.nextLine(); // clear line
+    ```
